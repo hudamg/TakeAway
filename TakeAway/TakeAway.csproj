@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{854FBA52-7683-46D8-8CF4-38852818A78C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TakeAway</RootNamespace>
+    <AssemblyName>TakeAway</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PL\FR_ EmployeeDebt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_ EmployeeDebt.Designer.cs">
+      <DependentUpon>FR_ EmployeeDebt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_ Jobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_ Jobs.Designer.cs">
+      <DependentUpon>FR_ Jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_ Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_ Employees.Designer.cs">
+      <DependentUpon>FR_ Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_ Nationalities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_ Nationalities.Designer.cs">
+      <DependentUpon>FR_ Nationalities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Areas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Areas.Designer.cs">
+      <DependentUpon>FR_Areas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_CreateAccount.Designer.cs">
+      <DependentUpon>FR_CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Installations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Installations.Designer.cs">
+      <DependentUpon>FR_Installations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Marketers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Marketers.Designer.cs">
+      <DependentUpon>FR_Marketers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Orders.Designer.cs">
+      <DependentUpon>FR_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Salaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Salaries.Designer.cs">
+      <DependentUpon>FR_Salaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_SignIn.Designer.cs">
+      <DependentUpon>FR_SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_PRUDACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_PRUDACT.Designer.cs">
+      <DependentUpon>FR_MANAGER_PRUDACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_SETTING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_SETTING.Designer.cs">
+      <DependentUpon>FR_MANAGER_SETTING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_TRCKING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_TRCKING.Designer.cs">
+      <DependentUpon>FR_MANAGER_TRCKING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_MANAGER_USER.Designer.cs">
+      <DependentUpon>FR_MANAGER_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Mine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Mine.Designer.cs">
+      <DependentUpon>FR_Mine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Welcome.Designer.cs">
+      <DependentUpon>FR_Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\FR_ EmployeeDebt.resx">
+      <DependentUpon>FR_ EmployeeDebt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_ Employees.resx">
+      <DependentUpon>FR_ Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_ Jobs.resx">
+      <DependentUpon>FR_ Jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_ Nationalities.resx">
+      <DependentUpon>FR_ Nationalities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Areas.resx">
+      <DependentUpon>FR_Areas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_CreateAccount.resx">
+      <DependentUpon>FR_CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Marketers.resx">
+      <DependentUpon>FR_Marketers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Salaries.resx">
+      <DependentUpon>FR_Salaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_SignIn.resx">
+      <DependentUpon>FR_SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_MANAGER_PRUDACT.resx">
+      <DependentUpon>FR_MANAGER_PRUDACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_MANAGER_SETTING.resx">
+      <DependentUpon>FR_MANAGER_SETTING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_MANAGER_TRCKING.resx">
+      <DependentUpon>FR_MANAGER_TRCKING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_MANAGER_USER.resx">
+      <DependentUpon>FR_MANAGER_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Mine.resx">
+      <DependentUpon>FR_Mine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AL\" />
+    <Folder Include="BL\" />
+    <Folder Include="RL\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
